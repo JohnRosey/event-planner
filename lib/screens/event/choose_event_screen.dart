@@ -158,7 +158,7 @@ class _ChooseEventState extends State<ChooseEvent> {
         FocusScope.of(context).unfocus();
       },
       child: Scaffold(
-        resizeToAvoidBottomPadding: false,
+        resizeToAvoidBottomInset: false,
         backgroundColor: Colors.white,
         appBar: AppBar(
             title: Text(args.subTitle, style: TextStyle(color: Colors.white)),

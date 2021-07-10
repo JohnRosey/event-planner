@@ -170,7 +170,7 @@ class _HomeScreenState extends State<HomeScreen> {
         myFocusNode.unfocus();
       },
       child: Scaffold(
-        resizeToAvoidBottomPadding: false,
+        resizeToAvoidBottomInset: false,
         appBar: AppBar(
             title: Text('Event Planner', style: TextStyle(color: Colors.white)),
             iconTheme: new IconThemeData(color: Colors.white)),

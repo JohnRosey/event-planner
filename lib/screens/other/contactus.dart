@@ -23,7 +23,7 @@ class _ContactUsState extends State<ContactUs> {
         FocusScope.of(context).unfocus();
       },
       child: Scaffold(
-        resizeToAvoidBottomPadding: false,
+        resizeToAvoidBottomInset: false,
         appBar: AppBar(
           iconTheme: IconThemeData(color: Colors.white),
           title: Text(

@@ -136,7 +136,7 @@ class _ViewGuestsState extends State<ViewGuests> {
           ),
         ),
       ),
-      resizeToAvoidBottomPadding: false,
+      resizeToAvoidBottomInset: false,
       appBar: AppBar(
           title: Text('${event.title}', style: TextStyle(color: Colors.white)),
           iconTheme: new IconThemeData(color: Colors.white)),

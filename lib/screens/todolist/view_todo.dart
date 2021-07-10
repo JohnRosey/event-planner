@@ -102,7 +102,7 @@ class _ViewToDoState extends State<ViewToDo> {
           ),
         ),
       ),
-      resizeToAvoidBottomPadding: false,
+      resizeToAvoidBottomInset: false,
       appBar: AppBar(
           title: Text('${event.title}', style: TextStyle(color: Colors.white)),
           iconTheme: new IconThemeData(color: Colors.white)),
